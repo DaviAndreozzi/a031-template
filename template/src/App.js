@@ -1,14 +1,15 @@
 import React from "react";
-import "./App.css";
-import logo from "./img/logo.png";
+import Garagem from "./components/Garagem";
+import a from "./App.css"
 
 export default function App() {
-  
-
   return (
-    <div className="App">
-      
-     <h1>Aula - Componentes React</h1>
+    <div>
+      <header>
+        <h2>Header</h2>
+      </header>
+      <h1>Aula - Componentes React</h1>
+      <Garagem />
     </div>
   );
 }

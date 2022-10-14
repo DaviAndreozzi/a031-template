@@ -1,0 +1,21 @@
+body{
+  background-color: aqua;
+}
+
+main{
+  display: grid;
+ justify-content: center;
+  height: 70%;
+  width: 100%;
+  background-color: lightblue;
+}
+h1{
+ color: blueviolet;
+}
+header{
+  background-color: coral;
+}
+
+footer{
+  background-color: coral;
+}
